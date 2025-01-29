@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "agentic-ai-demoes"
+version = "0.1.0"
+description = ""
+authors = ["Chandra Ganapathy <chandraxg@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.3.15"
+langchain-community = "^0.3.15"
+langchain-core = "^0.3.31"
+langchain-aws = "^0.2.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
